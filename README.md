@@ -160,6 +160,13 @@ a security engineering program whose current application,
 [role-call](https://github.com/tltaylor1/role-call), governs non-human
 identities in AWS accounts.
 
+## If this helps
+
+Thanks for reading this far. If the mapping saves you study time, the
+other repositories on [my profile](https://github.com/tltaylor1) may
+be worth a look too, and a star on the ones you use helps other
+people find them.
+
 ## License
 
 [CC BY 4.0](LICENSE). Use it, adapt it, credit it.
