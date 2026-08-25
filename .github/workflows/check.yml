@@ -1,0 +1,19 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  table:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # The README table is generated from mapping.csv. This refuses a
+      # commit where one moved without the other, which is the only way
+      # the two can disagree.
+      - run: python3 scripts/render_table.py --check
