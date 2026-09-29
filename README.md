@@ -1,10 +1,17 @@
 # AWS to Azure security mapping
 
+## What this is
+
 Ninety-nine AWS security concepts with the closest Azure comparable for
 each, written while studying for the AWS Certified Security specialty
 from an Azure background. It exists because most comparison tables map
 compute and storage, then stop before the security services, which are
 the ones whose names differ most.
+
+Every row was read against both platforms' current product names, and the
+published table is generated from the data file rather than edited, with a
+check in the pipeline that fails when the two disagree. How that works is
+under [How to read it](#how-to-read-it), not repeated here.
 
 Seven entries say **No clean equivalent**. Those are the useful ones. A
 mapping that finds a match for everything is telling you what you want
