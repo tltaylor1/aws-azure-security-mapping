@@ -155,10 +155,10 @@ and say what the boundary difference actually is.
 
 ## Related
 
-Built alongside [control-plane](https://github.com/tltaylor1/control-plane),
-a security engineering program whose current application,
-[role-call](https://github.com/tltaylor1/role-call), governs non-human
-identities in AWS accounts.
+Built alongside [control-plane](https://tltaylor1.github.io), a
+security engineering program whose application,
+[manifest-identity](https://github.com/manifest-identity/manifest-identity),
+governs the identities in cloud estates and directories.
 
 ## If this helps
 
